@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+}
+
+.auth-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden; /* Mencegah scroll ganda di layout desktop */
+}
+
+.auth-image {
+  flex: 1;
+  background: url('../assets/SignUp1.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+  position: relative;
+}
+
+.auth-image::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.overlay-text {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.auth-form {
+  flex: 1;
+  background: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto; /* Agar form bisa discroll jika layar pendek */
+}
+
+.auth-form h2 {
+  font-weight: 700;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #4fc3f7, #81c784);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- RESPONSIVE (HP & TABLET) --- */
+@media (max-width: 768px) {
+  .auth-container {
+    flex-direction: column; /* Ubah layout jadi atas-bawah */
+    height: auto;
+    min-height: 100vh;
+    overflow: auto; /* Izinkan scroll di body utama */
+  }
+
+  .auth-image {
+    flex: none; /* Gambar tidak mengambil semua ruang */
+    height: 200px; /* Tinggi gambar header di HP */
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .overlay-text h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  .overlay-text p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+
+  .auth-form {
+    flex: 1; 
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 20px 20px 0 0; /* Efek melengkung */
+    margin-top: -20px; /* Sedikit menumpuk ke atas gambar */
+    z-index: 10;
+
+    
+  }
+}

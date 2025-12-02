@@ -1,0 +1,244 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(202, 247, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* nav menu */
+nav {
+    display: flex;
+    align-items: center;
+    padding-right: 4%;
+    gap: 8px;
+}
+
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 88%;
+    font-weight: 200;
+}
+
+/* hover header/navbar */
+nav a:hover {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+/* vid */
+.hero {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+/* overlay gelap di atas vid */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.hero .bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* sign up & log in card */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    min-width: 150px; /* max lebar card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.sign-up {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+/* about us, community */
+.impact,
+.community {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #caf7ff, #22ae29);
+    margin: 0;
+    color: #2a3b30;
+}
+
+.impact h2,
+.community h2 {
+    color: white;
+    font-size: 200%;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.img2 {
+    display: block;
+    margin: 20px auto;
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.impact-items,
+.community-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.impact-item,
+.community-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 20%;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #2a3b30;
+}
+
+/* FAQ */
+.faq-container {
+    max-width: 75%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.faq-item {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.faq-question {
+    font-weight: 600;
+    color: #2e7d32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    color: #666;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-question .toggle {
+    transform: rotate(45deg);
+}
+
+.toggle {
+    font-size: 1.2em;
+    transition: transform 0.3s;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+
+    .card,
+    .impact-item,
+    .community-item {
+        width: 45%;
+        /* Kartu menjadi 2 kolom */
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .cards,
+    .impact-items,
+    .community-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .impact-item,
+    .community-item {
+        width: 80%;
+    }
+}
