@@ -1,0 +1,51 @@
+:root {
+    --yellow-1: #FCDD9D;
+    --green-sage: #8A9A5B;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.site-header {
+    background-color: var(--yellow-1);
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.cart-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #eee;
+}
+
+.btn-primary {
+    background-color: var(--green-sage);
+    border-color: var(--green-sage);
+}
+
+.btn-success {
+    background-color: var(--green-sage);
+    border: none;
+}
+
+.btn-success:hover {
+    opacity: 0.9;
+}
+
+.qty-box {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.qty-input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+}

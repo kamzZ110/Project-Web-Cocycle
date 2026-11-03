@@ -1,0 +1,8 @@
+[
+  "catalog -> cart quantity update -> checkout",
+  "donation catalog -> donation cart -> impact",
+  "customer chat contact search -> send",
+  "partner create product",
+  "partner order Ready -> Completed",
+  "partner chat receives customer message"
+]

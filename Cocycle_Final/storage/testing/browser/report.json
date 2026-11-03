@@ -1,0 +1,1611 @@
+[
+  {
+    "label": "landing",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/",
+    "errors": [],
+    "title": "CoCycle - Eat Smart, Waste Less!",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": [
+      {
+        "tag": "HEADER",
+        "className": "",
+        "left": 0,
+        "right": 1480,
+        "width": 1480
+      },
+      {
+        "tag": "NAV",
+        "className": "",
+        "left": 1060,
+        "right": 1460,
+        "width": 400
+      }
+    ]
+  },
+  {
+    "label": "login",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/login",
+    "errors": [],
+    "title": "Login - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/login",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "password",
+            "type": "password"
+          },
+          {
+            "name": "remember",
+            "type": "checkbox"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Continue"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "register",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/register",
+    "errors": [],
+    "title": "Sign Up - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/register",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "role_type",
+            "type": "hidden"
+          },
+          {
+            "name": "profile_pic",
+            "type": "file"
+          },
+          {
+            "name": "username",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "phone",
+            "type": "tel"
+          },
+          {
+            "name": "address",
+            "type": "text"
+          },
+          {
+            "name": "password",
+            "type": "password"
+          },
+          {
+            "name": "",
+            "type": "checkbox"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Continue"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "register-partner",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/register?role=partner",
+    "errors": [],
+    "title": "Sign Up - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/register",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "role_type",
+            "type": "hidden"
+          },
+          {
+            "name": "profile_pic",
+            "type": "file"
+          },
+          {
+            "name": "username",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "phone",
+            "type": "tel"
+          },
+          {
+            "name": "address",
+            "type": "text"
+          },
+          {
+            "name": "nama_toko",
+            "type": "text"
+          },
+          {
+            "name": "password",
+            "type": "password"
+          },
+          {
+            "name": "",
+            "type": "checkbox"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Continue"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "forgot",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/forgot-password",
+    "errors": [],
+    "title": "Forgot Password - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/forgot-password",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Submit"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "customer-home",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/home",
+    "errors": [],
+    "title": "Cocycle — Home",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/logout",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Log Out"
+          }
+        ]
+      },
+      {
+        "action": null,
+        "fields": [
+          {
+            "name": "username",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "phone",
+            "type": "tel"
+          },
+          {
+            "name": "fullname",
+            "type": "text"
+          },
+          {
+            "name": "address",
+            "type": "textarea"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Save Changes"
+          },
+          {
+            "name": "",
+            "type": "button",
+            "text": "Cancel"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "marketplace",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/marketplace",
+    "errors": [],
+    "title": "Laravel - Eat Smart, Waste Less",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/marketplace",
+        "fields": [
+          {
+            "name": "search",
+            "type": "text"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "cart-empty",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/cart",
+    "errors": [],
+    "title": "Laravel - Eat Smart, Waste Less",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/marketplace",
+        "fields": [
+          {
+            "name": "search",
+            "type": "text"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "donation",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/donation",
+        "fields": [
+          {
+            "name": "search",
+            "type": "text"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/donation/add",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "id",
+            "type": "hidden"
+          },
+          {
+            "name": "name",
+            "type": "hidden"
+          },
+          {
+            "name": "price",
+            "type": "hidden"
+          },
+          {
+            "name": "img",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "donation-cart-empty",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation/cart",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/donation/checkout",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "community",
+            "type": "radio"
+          },
+          {
+            "name": "community",
+            "type": "radio"
+          },
+          {
+            "name": "payment_method",
+            "type": "select-one"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Donasi Sekarang"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Perbarui Keranjang"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "impact",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation/impact",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "levels",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation/levels",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "customer-chat",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/chat",
+    "errors": [],
+    "title": "Chat - CoCycle Partner",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "partner-home",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/home",
+    "errors": [],
+    "title": "Dashboard Partner - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "products",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/products",
+    "errors": [],
+    "title": "Manajemen Produk - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/partner/products/15/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/14/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/8/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/9/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/10/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/11/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/12/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/13/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "create-product",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/products/create",
+    "errors": [],
+    "title": "Tambah Produk - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/partner/products/store",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "image",
+            "type": "file"
+          },
+          {
+            "name": "name",
+            "type": "text"
+          },
+          {
+            "name": "category",
+            "type": "select-one"
+          },
+          {
+            "name": "price",
+            "type": "number"
+          },
+          {
+            "name": "stock",
+            "type": "number"
+          },
+          {
+            "name": "status",
+            "type": "select-one"
+          },
+          {
+            "name": "description",
+            "type": "textarea"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Simpan Produk"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "orders-empty",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/orders",
+    "errors": [],
+    "title": "Riwayat Pesanan - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "partner-profile",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/profile",
+    "errors": [],
+    "title": "Profil Toko - Partner CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/partner/profile",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "button",
+            "text": "Ganti Logo"
+          },
+          {
+            "name": "logo_image",
+            "type": "file"
+          },
+          {
+            "name": "name",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "textarea"
+          },
+          {
+            "name": "phone",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "address",
+            "type": "textarea"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "SIMPAN PERUBAHAN"
+          }
+        ]
+      }
+    ],
+    "overflowElements": [
+      {
+        "tag": "INPUT",
+        "className": "",
+        "left": 673,
+        "right": 2809,
+        "width": 2136
+      }
+    ]
+  },
+  {
+    "label": "analysis",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/analysis",
+    "errors": [],
+    "title": "Analisis Toko - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "partner-chat",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/chat",
+    "errors": [],
+    "title": "Chat - CoCycle Partner",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "withdrawal",
+    "viewport": 1440,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/withdrawal",
+    "errors": [],
+    "title": "Tarik Dana - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "landing",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/",
+    "errors": [],
+    "title": "CoCycle - Eat Smart, Waste Less!",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": [
+      {
+        "tag": "HEADER",
+        "className": "",
+        "left": 0,
+        "right": 430,
+        "width": 430
+      }
+    ]
+  },
+  {
+    "label": "login",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/login",
+    "errors": [],
+    "title": "Login - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/login",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "password",
+            "type": "password"
+          },
+          {
+            "name": "remember",
+            "type": "checkbox"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Continue"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "register",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/register",
+    "errors": [],
+    "title": "Sign Up - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/register",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "role_type",
+            "type": "hidden"
+          },
+          {
+            "name": "profile_pic",
+            "type": "file"
+          },
+          {
+            "name": "username",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "phone",
+            "type": "tel"
+          },
+          {
+            "name": "address",
+            "type": "text"
+          },
+          {
+            "name": "password",
+            "type": "password"
+          },
+          {
+            "name": "",
+            "type": "checkbox"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Continue"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "register-partner",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/register?role=partner",
+    "errors": [],
+    "title": "Sign Up - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/register",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "role_type",
+            "type": "hidden"
+          },
+          {
+            "name": "profile_pic",
+            "type": "file"
+          },
+          {
+            "name": "username",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "phone",
+            "type": "tel"
+          },
+          {
+            "name": "address",
+            "type": "text"
+          },
+          {
+            "name": "nama_toko",
+            "type": "text"
+          },
+          {
+            "name": "password",
+            "type": "password"
+          },
+          {
+            "name": "",
+            "type": "checkbox"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Continue"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "forgot",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/forgot-password",
+    "errors": [],
+    "title": "Forgot Password - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/forgot-password",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Submit"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "customer-home",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/home",
+    "errors": [],
+    "title": "Cocycle — Home",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/logout",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Log Out"
+          }
+        ]
+      },
+      {
+        "action": null,
+        "fields": [
+          {
+            "name": "username",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "phone",
+            "type": "tel"
+          },
+          {
+            "name": "fullname",
+            "type": "text"
+          },
+          {
+            "name": "address",
+            "type": "textarea"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Save Changes"
+          },
+          {
+            "name": "",
+            "type": "button",
+            "text": "Cancel"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "marketplace",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/marketplace",
+    "errors": [],
+    "title": "Laravel - Eat Smart, Waste Less",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/marketplace",
+        "fields": [
+          {
+            "name": "search",
+            "type": "text"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "cart-empty",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/cart",
+    "errors": [],
+    "title": "Laravel - Eat Smart, Waste Less",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/marketplace",
+        "fields": [
+          {
+            "name": "search",
+            "type": "text"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "donation",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/donation",
+        "fields": [
+          {
+            "name": "search",
+            "type": "text"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/donation/add",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "id",
+            "type": "hidden"
+          },
+          {
+            "name": "name",
+            "type": "hidden"
+          },
+          {
+            "name": "price",
+            "type": "hidden"
+          },
+          {
+            "name": "img",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "donation-cart-empty",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation/cart",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/donation/checkout",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "community",
+            "type": "radio"
+          },
+          {
+            "name": "community",
+            "type": "radio"
+          },
+          {
+            "name": "payment_method",
+            "type": "select-one"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Donasi Sekarang"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Perbarui Keranjang"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "impact",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation/impact",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "levels",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/donation/levels",
+    "errors": [],
+    "title": "Cocycle - Donation",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "customer-chat",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/chat",
+    "errors": [],
+    "title": "Chat - CoCycle Partner",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "partner-home",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/home",
+    "errors": [],
+    "title": "Dashboard Partner - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "products",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/products",
+    "errors": [],
+    "title": "Manajemen Produk - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/partner/products/15/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/14/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/8/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/9/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/10/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/11/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/12/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "http://127.0.0.1:8011/partner/products/13/delete",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "_method",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "create-product",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/products/create",
+    "errors": [],
+    "title": "Tambah Produk - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/partner/products/store",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "image",
+            "type": "file"
+          },
+          {
+            "name": "name",
+            "type": "text"
+          },
+          {
+            "name": "category",
+            "type": "select-one"
+          },
+          {
+            "name": "price",
+            "type": "number"
+          },
+          {
+            "name": "stock",
+            "type": "number"
+          },
+          {
+            "name": "status",
+            "type": "select-one"
+          },
+          {
+            "name": "description",
+            "type": "textarea"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "Simpan Produk"
+          }
+        ]
+      }
+    ],
+    "overflowElements": []
+  },
+  {
+    "label": "orders-empty",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/orders",
+    "errors": [],
+    "title": "Riwayat Pesanan - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "partner-profile",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/profile",
+    "errors": [],
+    "title": "Profil Toko - Partner CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [
+      {
+        "action": "http://127.0.0.1:8011/partner/profile",
+        "fields": [
+          {
+            "name": "_token",
+            "type": "hidden"
+          },
+          {
+            "name": "",
+            "type": "button",
+            "text": "Ganti Logo"
+          },
+          {
+            "name": "logo_image",
+            "type": "file"
+          },
+          {
+            "name": "name",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "textarea"
+          },
+          {
+            "name": "phone",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "address",
+            "type": "textarea"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "text": "SIMPAN PERUBAHAN"
+          }
+        ]
+      }
+    ],
+    "overflowElements": [
+      {
+        "tag": "INPUT",
+        "className": "",
+        "left": 148,
+        "right": 2284,
+        "width": 2136
+      }
+    ]
+  },
+  {
+    "label": "analysis",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/analysis",
+    "errors": [],
+    "title": "Analisis Toko - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "partner-chat",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/chat",
+    "errors": [],
+    "title": "Chat - CoCycle Partner",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  },
+  {
+    "label": "withdrawal",
+    "viewport": 390,
+    "status": 200,
+    "url": "http://127.0.0.1:8011/partner/withdrawal",
+    "errors": [],
+    "title": "Tarik Dana - CoCycle",
+    "overflow": false,
+    "brokenImages": [],
+    "forms": [],
+    "overflowElements": []
+  }
+]

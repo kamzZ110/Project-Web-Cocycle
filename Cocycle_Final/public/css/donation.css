@@ -1,0 +1,60 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --brand-primary: #A3B565;
+    --brand-bg: #FDF8E2;
+    --brand-accent: #F1642E;
+    --brand-yellow: #FCDD9D;
+}
+
+body {
+    background-color: var(--brand-bg);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding-top: 80px; /* Space for fixed navbar */
+}
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.04);
+}
+.nav-link { font-weight: 500; color: #666; }
+.nav-link.active { color: var(--brand-primary) !important; font-weight: 600; }
+.navbar-brand { color: var(--brand-primary) !important; font-weight: 700; font-size: 1.5rem; }
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    transition: all 0.3s ease;
+}
+.card:hover { transform: translateY(-5px); }
+
+.btn-primary {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-weight: 600;
+}
+.btn-primary:hover {
+    background-color: #8ea056;
+    border-color: #8ea056;
+}
+
+/* Rounded Inputs & Search */
+.form-control-lg { border-radius: 50px; border: 1px solid #ddd; font-size: 0.95rem; }
+
+/* Custom Radio Selection for Community */
+.community-selector input[type="radio"] { display: none; }
+.community-selector label {
+    display: block;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.community-selector input[type="radio"]:checked + label .card {
+    border: 2px solid var(--brand-primary);
+    background-color: #f9fff0;
+}

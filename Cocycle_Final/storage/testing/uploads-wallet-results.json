@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "date": "2026-11-03T03:46:11.892Z",
+  "database": "cocycle_test_20261101_114855_2822dc",
+  "checks": [
+    "customer photo upload and reload on mobile",
+    "partner logo upload and persisted image",
+    "partner product image upload visible in customer catalog",
+    "completed 10000 order credits 9000 once",
+    "withdrawal reserves 4000 and cancellation restores funds"
+  ],
+  "errors": []
+}

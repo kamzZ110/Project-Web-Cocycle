@@ -1,0 +1,9 @@
+[
+  {"name":"Red Sweet Pepper","category":"Vegetables & Fruits","price":7000,"stock":100,"rating":4.9,"distance":"1.2 km","description":"Paprika merah segar organik.","image":"assets/peppers.jpg"},
+  {"name":"Lemon Cake","category":"Bakery & Pastry","price":10000,"stock":100,"rating":4.8,"distance":"1.5 km","description":"Kue lemon lembut dengan icing gula.","image":"assets/lemon cake.jpg"},
+  {"name":"Chocolate Matcha Cake","category":"Bakery & Pastry","price":16000,"stock":100,"rating":5.0,"distance":"1.2 km","description":"Perpaduan coklat dan matcha jepang.","image":"assets/matcha.jpg"},
+  {"name":"Strawberry Smoothie","category":"Drinks","price":14000,"stock":100,"rating":4.7,"distance":"500 m","description":"Smoothie strawberry segar tanpa gula.","image":"assets/smoothie.jpg"},
+  {"name":"Granola Bar","category":"Snacks","price":24000,"stock":100,"rating":4.9,"distance":"2 km","description":"Camilan sehat oat dan madu.","image":"assets/granola.jpg"},
+  {"name":"Frozen Raspberry","category":"Meats, Frozen & Seafood","price":19000,"stock":100,"rating":4.6,"distance":"800 m","description":"Raspberry beku kualitas premium.","image":"assets/raspberry.jpg"},
+  {"name":"lemon_cake_yummy","category":"Bakery & Pastry","price":20000,"stock":5,"rating":5.0,"distance":"1 km","description":"yummy bgt pokoknya","image":"assets/products/product_69464efdcdd33.jpg"}
+]

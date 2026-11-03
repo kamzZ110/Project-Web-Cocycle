@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "database": "cocycle_test_20261101_114855_2822dc",
+  "checks": [
+    "partner registration creates 7 products",
+    "reload does not duplicate",
+    "customer mobile catalog filters new store",
+    "checkout visible to correct partner",
+    "other partner cannot access order"
+  ],
+  "errors": []
+}

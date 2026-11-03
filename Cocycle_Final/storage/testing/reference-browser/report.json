@@ -1,0 +1,516 @@
+[
+  {
+    "path": "/",
+    "label": "landing",
+    "viewport": 1440,
+    "status": 200,
+    "title": "CoCycle",
+    "overflow": false,
+    "headings": [
+      "Eat Smart, Waste Less!",
+      "Sign up as a customer",
+      "Sign up as a partner",
+      "About Us",
+      "Our Community",
+      "FAQ"
+    ]
+  },
+  {
+    "path": "/backend/login.php",
+    "label": "login",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Login - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Welcome to the community",
+      "Login your account!"
+    ]
+  },
+  {
+    "path": "/backend/SignUp.php",
+    "label": "register",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Create your account! - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Welcome to the community",
+      "Create your account!"
+    ]
+  },
+  {
+    "path": "/backend/SignUp.php?role=partner",
+    "label": "register-partner",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Sign Up as Partner - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Welcome to the community",
+      "Sign Up as Partner"
+    ]
+  },
+  {
+    "path": "/backend/homepage_1.php",
+    "label": "customer-home",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Cocycle — Home",
+    "overflow": false,
+    "headings": [
+      "What Do You Want To Do Today..?",
+      "Marketplace",
+      "Donation",
+      "Promos & News",
+      "Food Storage Tips",
+      "Edit Profile",
+      "Detail"
+    ]
+  },
+  {
+    "path": "/explore/katalog.php",
+    "label": "marketplace",
+    "viewport": 1440,
+    "status": 200,
+    "title": "CoCycle - Explore",
+    "overflow": false,
+    "headings": [
+      "Category",
+      "Top Rated Resto",
+      "All Products",
+      "Product Name"
+    ]
+  },
+  {
+    "path": "/explore/cart.php",
+    "label": "cart-empty",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Keranjang - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Keranjang Belanja",
+      "Keranjangmu kosong",
+      "Ringkasan"
+    ]
+  },
+  {
+    "path": "/donation/index.php",
+    "label": "donation",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Apa yang ingin kamu donasikan?",
+      "Makanan Donasi",
+      "Roti Donasi Uji"
+    ]
+  },
+  {
+    "path": "/donation/checkout.php",
+    "label": "donation-cart-empty",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Pencatatan Donasi",
+      "Pilih Komunitas Penerima",
+      "Detail Item",
+      "Ringkasan"
+    ]
+  },
+  {
+    "path": "/donation/impact.php",
+    "label": "impact",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Pelaporan Dampak",
+      "Grafik Perkembangan Donasi (Tahun 2026)",
+      "Poin Kamu",
+      "Riwayat Donasi Terbaru"
+    ]
+  },
+  {
+    "path": "/donation/levels.php",
+    "label": "levels",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Kelebihan Level Donasi",
+      "Kebaikan Baru",
+      "Pemberi Aktif",
+      "Penolong Lingkungan",
+      "Pemimpin Gerakan"
+    ]
+  },
+  {
+    "path": "/partner/homepage_2.php",
+    "label": "partner-home",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Dashboard Partner - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Pemasukan Hari Ini",
+      "Rp 7.000,00",
+      "Pesanan Terbaru",
+      "Produk Terlaris",
+      "Granola Bar",
+      "Strawberry Smoothie",
+      "Frozen Raspberry"
+    ]
+  },
+  {
+    "path": "/partner/produk.php",
+    "label": "products",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Manajemen Produk - CoCycle",
+    "overflow": false,
+    "headings": [
+      "MANAJEMEN PRODUK"
+    ]
+  },
+  {
+    "path": "/partner/tambah_produk.php",
+    "label": "create-product",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Tambah Produk - CoCycle",
+    "overflow": false,
+    "headings": [
+      "TOKO UJI COCYCLE",
+      "Tambah Produk",
+      "Media Produk",
+      "Keterangan Detail"
+    ]
+  },
+  {
+    "path": "/partner/riwayat.php",
+    "label": "orders-empty",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Riwayat Pesanan - CoCycle",
+    "overflow": false,
+    "headings": [
+      "RIWAYAT PESANAN",
+      "Pesanan Masuk",
+      "Rp 7.000"
+    ]
+  },
+  {
+    "path": "/partner/profil_partner.php",
+    "label": "partner-profile",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Profil Toko - Partner CoCycle",
+    "overflow": false,
+    "headings": [
+      "ErrorException",
+      "Exception trace",
+      "Queries",
+      "Headers",
+      "Body",
+      "Routing",
+      "Routing parameters"
+    ]
+  },
+  {
+    "path": "/partner/analisis.php",
+    "label": "analysis",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Analisis Toko - CoCycle",
+    "overflow": false,
+    "headings": [
+      "TOKO UJI COCYCLE"
+    ]
+  },
+  {
+    "path": "/partner/chat.php",
+    "label": "partner-chat",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Chat - CoCycle Partner",
+    "overflow": false,
+    "headings": []
+  },
+  {
+    "path": "/partner/tarik_dana.php",
+    "label": "withdrawal",
+    "viewport": 1440,
+    "status": 200,
+    "title": "Tarik Dana - CoCycle",
+    "overflow": false,
+    "headings": [
+      "TOKO UJI COCYCLE",
+      "Tarik Dana & Analisis",
+      "Riwayat Transaksi"
+    ]
+  },
+  {
+    "path": "/",
+    "label": "landing",
+    "viewport": 390,
+    "status": 200,
+    "title": "CoCycle",
+    "overflow": false,
+    "headings": [
+      "Eat Smart, Waste Less!",
+      "Sign up as a customer",
+      "Sign up as a partner",
+      "About Us",
+      "Our Community",
+      "FAQ"
+    ]
+  },
+  {
+    "path": "/backend/login.php",
+    "label": "login",
+    "viewport": 390,
+    "status": 200,
+    "title": "Login - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Welcome to the community",
+      "Login your account!"
+    ]
+  },
+  {
+    "path": "/backend/SignUp.php",
+    "label": "register",
+    "viewport": 390,
+    "status": 200,
+    "title": "Create your account! - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Welcome to the community",
+      "Create your account!"
+    ]
+  },
+  {
+    "path": "/backend/SignUp.php?role=partner",
+    "label": "register-partner",
+    "viewport": 390,
+    "status": 200,
+    "title": "Sign Up as Partner - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Welcome to the community",
+      "Sign Up as Partner"
+    ]
+  },
+  {
+    "path": "/backend/homepage_1.php",
+    "label": "customer-home",
+    "viewport": 390,
+    "status": 200,
+    "title": "Cocycle — Home",
+    "overflow": false,
+    "headings": [
+      "What Do You Want To Do Today..?",
+      "Marketplace",
+      "Donation",
+      "Promos & News",
+      "Food Storage Tips",
+      "Edit Profile",
+      "Detail"
+    ]
+  },
+  {
+    "path": "/explore/katalog.php",
+    "label": "marketplace",
+    "viewport": 390,
+    "status": 200,
+    "title": "CoCycle - Explore",
+    "overflow": true,
+    "headings": [
+      "Category",
+      "Top Rated Resto",
+      "All Products",
+      "Product Name"
+    ]
+  },
+  {
+    "path": "/explore/cart.php",
+    "label": "cart-empty",
+    "viewport": 390,
+    "status": 200,
+    "title": "Keranjang - CoCycle",
+    "overflow": false,
+    "headings": [
+      "Keranjang Belanja",
+      "Keranjangmu kosong",
+      "Ringkasan"
+    ]
+  },
+  {
+    "path": "/donation/index.php",
+    "label": "donation",
+    "viewport": 390,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Apa yang ingin kamu donasikan?",
+      "Makanan Donasi",
+      "Roti Donasi Uji"
+    ]
+  },
+  {
+    "path": "/donation/checkout.php",
+    "label": "donation-cart-empty",
+    "viewport": 390,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Pencatatan Donasi",
+      "Pilih Komunitas Penerima",
+      "Detail Item",
+      "Ringkasan"
+    ]
+  },
+  {
+    "path": "/donation/impact.php",
+    "label": "impact",
+    "viewport": 390,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Pelaporan Dampak",
+      "Grafik Perkembangan Donasi (Tahun 2026)",
+      "Poin Kamu",
+      "Riwayat Donasi Terbaru"
+    ]
+  },
+  {
+    "path": "/donation/levels.php",
+    "label": "levels",
+    "viewport": 390,
+    "status": 200,
+    "title": "Cocycle",
+    "overflow": false,
+    "headings": [
+      "Kelebihan Level Donasi",
+      "Kebaikan Baru",
+      "Pemberi Aktif",
+      "Penolong Lingkungan",
+      "Pemimpin Gerakan"
+    ]
+  },
+  {
+    "path": "/partner/homepage_2.php",
+    "label": "partner-home",
+    "viewport": 390,
+    "status": 200,
+    "title": "Dashboard Partner - CoCycle",
+    "overflow": true,
+    "headings": [
+      "Pemasukan Hari Ini",
+      "Rp 7.000,00",
+      "Pesanan Terbaru",
+      "Produk Terlaris",
+      "Granola Bar",
+      "Strawberry Smoothie",
+      "Frozen Raspberry"
+    ]
+  },
+  {
+    "path": "/partner/produk.php",
+    "label": "products",
+    "viewport": 390,
+    "status": 200,
+    "title": "Manajemen Produk - CoCycle",
+    "overflow": false,
+    "headings": [
+      "MANAJEMEN PRODUK"
+    ]
+  },
+  {
+    "path": "/partner/tambah_produk.php",
+    "label": "create-product",
+    "viewport": 390,
+    "status": 200,
+    "title": "Tambah Produk - CoCycle",
+    "overflow": false,
+    "headings": [
+      "TOKO UJI COCYCLE",
+      "Tambah Produk",
+      "Media Produk",
+      "Keterangan Detail"
+    ]
+  },
+  {
+    "path": "/partner/riwayat.php",
+    "label": "orders-empty",
+    "viewport": 390,
+    "status": 200,
+    "title": "Riwayat Pesanan - CoCycle",
+    "overflow": true,
+    "headings": [
+      "RIWAYAT PESANAN",
+      "Pesanan Masuk",
+      "Rp 7.000"
+    ]
+  },
+  {
+    "path": "/partner/profil_partner.php",
+    "label": "partner-profile",
+    "viewport": 390,
+    "status": 200,
+    "title": "Profil Toko - Partner CoCycle",
+    "overflow": true,
+    "headings": [
+      "ErrorException",
+      "Exception trace",
+      "Queries",
+      "Headers",
+      "Body",
+      "Routing",
+      "Routing parameters"
+    ]
+  },
+  {
+    "path": "/partner/analisis.php",
+    "label": "analysis",
+    "viewport": 390,
+    "status": 200,
+    "title": "Analisis Toko - CoCycle",
+    "overflow": false,
+    "headings": [
+      "TOKO UJI COCYCLE"
+    ]
+  },
+  {
+    "path": "/partner/chat.php",
+    "label": "partner-chat",
+    "viewport": 390,
+    "status": 200,
+    "title": "Chat - CoCycle Partner",
+    "overflow": false,
+    "headings": []
+  },
+  {
+    "path": "/partner/tarik_dana.php",
+    "label": "withdrawal",
+    "viewport": 390,
+    "status": 200,
+    "title": "Tarik Dana - CoCycle",
+    "overflow": false,
+    "headings": [
+      "TOKO UJI COCYCLE",
+      "Tarik Dana & Analisis",
+      "Riwayat Transaksi"
+    ]
+  }
+]
