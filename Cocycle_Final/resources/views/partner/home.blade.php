@@ -182,6 +182,7 @@
             .stats-container { flex-wrap: wrap; gap: .5rem 1rem; }
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 

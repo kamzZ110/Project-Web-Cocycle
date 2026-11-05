@@ -104,6 +104,7 @@
         .badge-inactive { background: #f8d7da; color: #721c24; }
         .badge-out { background: #fff3cd; color: #856404; }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 

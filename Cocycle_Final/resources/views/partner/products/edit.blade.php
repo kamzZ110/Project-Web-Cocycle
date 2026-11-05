@@ -17,6 +17,7 @@
         .btn-simpan { background-color: var(--green-sage); color: white; padding: 15px 80px; border-radius: 30px; font-weight: 700; border: none; transition: 0.3s; text-transform: uppercase; }
         .btn-simpan:hover { background-color: #7a8a4f; }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 @include('partials.feedback')

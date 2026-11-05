@@ -75,6 +75,7 @@
             cursor: pointer;
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 

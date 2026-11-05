@@ -19,6 +19,7 @@
         .input-group-text { background: white; border-right: none; border-radius: 12px 0 0 12px; font-weight: bold; color: var(--green-sage); }
         .price-input { border-left: none; }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 @include('partials.feedback')

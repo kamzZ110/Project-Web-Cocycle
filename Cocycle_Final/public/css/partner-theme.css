@@ -1,0 +1,181 @@
+:root {
+    --partner-cream: #F7F1DE;
+    --partner-sage: #B0BA99;
+    --partner-clay: #9D6638;
+    --partner-bark: #4E220F;
+    --partner-sage-wash: rgb(176 186 153 / 38%);
+    --partner-line: rgb(78 34 15 / 22%);
+    --partner-muted: rgb(78 34 15 / 72%);
+
+    --green-sage: var(--partner-clay);
+    --green-light: var(--partner-sage);
+    --teal: var(--partner-clay);
+    --orange: var(--partner-clay);
+    --gold: var(--partner-sage);
+    --gold-1: var(--partner-sage);
+    --yellow-1: var(--partner-cream);
+    --cream-1: var(--partner-cream);
+    --cream-2: var(--partner-sage-wash);
+    --cream: var(--partner-cream);
+    --pale: var(--partner-line);
+    --pale-yellow: var(--partner-sage-wash);
+    --bg: var(--partner-cream);
+    --bg-site: var(--partner-cream);
+    --bg-light: var(--partner-cream);
+    --dark-text: var(--partner-bark);
+    --muted-text: var(--partner-muted);
+    --success-green: var(--partner-bark);
+    --bubble-me: var(--partner-bark);
+    --bubble-them: var(--partner-cream);
+}
+
+body {
+    background-color: var(--partner-cream) !important;
+    color: var(--partner-bark);
+}
+
+.navbar,
+.top-bar,
+.header-section,
+.header-bg {
+    background: var(--partner-sage) !important;
+    border-color: var(--partner-clay) !important;
+    color: var(--partner-bark) !important;
+}
+
+.navbar-brand,
+.navbar .nav-link,
+.top-bar a,
+.top-bar h5,
+.header-section a,
+.header-section h1,
+.header-section h2,
+.header-section h3,
+.header-section h4,
+.header-section h5,
+.header-section p,
+.header-bg a,
+.header-bg .nav-link,
+.header-bg h1,
+.header-bg h2,
+.header-bg h3,
+.header-bg h4,
+.header-bg h5,
+.header-bg span {
+    color: var(--partner-bark) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+    color: var(--partner-bark) !important;
+}
+
+.card,
+.main-card,
+.earnings-card,
+.saldo-box,
+.summary-box,
+.upload-box,
+.chat-sidebar,
+.chat-main,
+.chat-window,
+.chat-container,
+.kpi-card,
+.chart-card,
+.product-card,
+.order-card,
+.transaction-card,
+.bg-white {
+    background-color: var(--partner-sage-wash) !important;
+    border-color: var(--partner-line) !important;
+}
+
+.bg-light,
+.product-mini-item,
+.chat-item.active,
+.chat-item:hover,
+.chat-bubble.received,
+.message.received {
+    background-color: var(--partner-sage-wash) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.text-success,
+.text-primary,
+.brand-icon,
+.transaction-section h4 {
+    color: var(--partner-bark);
+}
+
+.text-muted,
+.text-secondary,
+small,
+.saldo-label,
+.date-group,
+.kpi-title,
+.kpi-date {
+    color: var(--partner-muted) !important;
+}
+
+.btn-primary,
+.btn-sage,
+.btn-simpan,
+.btn-pemasukan,
+.btn-kelola,
+.btn-add-product,
+.btn-send,
+.btn-success {
+    background-color: var(--partner-bark) !important;
+    border-color: var(--partner-bark) !important;
+    color: var(--partner-cream) !important;
+}
+
+.btn-primary:hover,
+.btn-sage:hover,
+.btn-simpan:hover,
+.btn-pemasukan:hover,
+.btn-kelola:hover,
+.btn-add-product:hover,
+.btn-send:hover,
+.btn-success:hover {
+    background-color: var(--partner-bark) !important;
+    border-color: var(--partner-clay) !important;
+    color: var(--partner-cream) !important;
+}
+
+.btn-ubah,
+.btn-warning {
+    background-color: var(--partner-cream) !important;
+    border-color: var(--partner-clay) !important;
+    color: var(--partner-bark) !important;
+}
+
+.btn-outline-custom,
+.btn-outline-success {
+    border-color: var(--partner-clay) !important;
+    color: var(--partner-bark) !important;
+}
+
+.form-control,
+.form-select,
+.input-group-text {
+    background-color: var(--partner-cream);
+    border-color: var(--partner-line);
+    color: var(--partner-bark);
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    border-color: var(--partner-clay) !important;
+    box-shadow: 0 0 0 .2rem rgb(157 102 56 / 22%) !important;
+}
+
+.table > :not(caption) > * > * {
+    border-color: var(--partner-line);
+}
+
+:focus-visible {
+    outline: 3px solid var(--partner-clay);
+    outline-offset: 2px;
+}

@@ -42,6 +42,7 @@
         .btn-outline-custom { border: 1px solid #ddd; border-radius: 10px; padding: 8px; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; color: #555; text-decoration: none; margin-bottom: 8px; }
         .btn-outline-custom:hover { background: #f5f5f5; color: var(--green-sage); }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 

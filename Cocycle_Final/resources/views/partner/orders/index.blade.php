@@ -81,6 +81,7 @@
             .order-card h6 { overflow-wrap: anywhere; }
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 

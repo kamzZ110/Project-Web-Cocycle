@@ -88,6 +88,7 @@
         .btn-back { color: var(--dark-text); text-decoration: none; font-size: 1.3rem; transition: 0.3s; }
         .btn-back:hover { color: var(--green-sage); }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 

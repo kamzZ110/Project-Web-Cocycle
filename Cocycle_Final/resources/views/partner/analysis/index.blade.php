@@ -76,6 +76,7 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px;
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 
@@ -161,12 +162,12 @@
                 datasets: [{
                     label: 'Total',
                     data: [10, 15, 13, 20],
-                    borderColor: '#8A9A5B',
-                    backgroundColor: 'rgba(138, 154, 91, 0.1)',
+                    borderColor: '#9D6638',
+                    backgroundColor: 'rgba(176, 186, 153, 0.24)',
                     borderWidth: 3,
                     tension: 0,
                     fill: true,
-                    pointBackgroundColor: '#8A9A5B'
+                    pointBackgroundColor: '#4E220F'
                 }]
             },
             options: { responsive: true, plugins: { legend: { display: false } } }
@@ -181,11 +182,11 @@
                 datasets: [{
                     label: 'Penjualan',
                     data: [10, 100, 130, 200],
-                    borderColor: '#8A9A5B',
+                    borderColor: '#9D6638',
                     borderWidth: 3,
                     tension: 0,
                     fill: false,
-                    pointBackgroundColor: '#8A9A5B'
+                    pointBackgroundColor: '#4E220F'
                 }]
             },
             options: { responsive: true, plugins: { legend: { display: false } } }

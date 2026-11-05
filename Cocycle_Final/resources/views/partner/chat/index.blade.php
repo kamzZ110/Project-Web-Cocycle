@@ -165,6 +165,7 @@
         .btn-send:hover { background: #7a8a4f; transform: scale(1.05); }
     @media(max-width: 600px) { .chat-sidebar {width:35%;min-width:125px} .chat-main {min-width:0} .chat-item{padding:10px 5px}.chat-item .avatar{display:none}.message-area{padding:12px}.bubble{max-width:95%;overflow-wrap:anywhere}.chat-input-area{padding:10px;gap:5px}.input-group-custom{min-width:0}.search-box{padding:8px}.search-box input{padding:8px;font-size:12px} }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/partner-theme.css') }}">
 </head>
 <body>
 
